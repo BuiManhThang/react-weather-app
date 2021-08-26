@@ -1,0 +1,45 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin: 20px 30px;
+  margin-bottom: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+  color: #eee;
+}
+
+.date {
+  width: 70px;
+  font-size: 15px;
+}
+
+.icon {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 18px;
+}
+
+.temp {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 575px) {
+  .list {
+    margin-top: 30px;
+  }
+  .date {
+    width: 70px;
+    font-size: 18px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+  .temp {
+    font-size: 18px;
+  }
+}

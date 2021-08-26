@@ -1,0 +1,20 @@
+.container {
+  width: 350px;
+  background-color: red;
+  height: 80vh;
+  margin: 10vh auto 0 auto;
+  background-image: linear-gradient(180deg, #594c99, #5ebaeb);
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    border-radius: 0;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 3vh;
+  }
+}

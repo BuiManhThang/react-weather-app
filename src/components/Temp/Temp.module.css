@@ -1,0 +1,23 @@
+.text {
+  color: #eee;
+  text-align: center;
+}
+
+.currentTemp {
+  display: block;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.minMaxTemp {
+  font-size: 18px;
+}
+
+/* @media screen and (max-width: 575px) {
+  .currentTemp {
+    font-size: 70px;
+  }
+  .minMaxTemp {
+    font-size: 20px;
+  }
+} */

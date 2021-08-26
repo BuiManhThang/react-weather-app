@@ -1,0 +1,78 @@
+.header__title {
+  color: #eee;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  position: relative;
+}
+
+.header__icon {
+  position: absolute;
+  bottom: 7px;
+  right: 20px;
+  font-size: 20px;
+  transition: text-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.header__icon:hover {
+  text-shadow: 1px 1px 2px #000;
+}
+
+.header__input {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 600;
+  color: #eee;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 0 45px;
+}
+
+.form {
+  position: relative;
+}
+
+.submit {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+  transition: text-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.submit:hover {
+  text-shadow: 1px 1px 2px #000;
+}
+
+.mark {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+  transition: text-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.mark:hover {
+  text-shadow: 1px 1px 2px #000;
+}

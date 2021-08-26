@@ -1,0 +1,36 @@
+.loading__container {
+  padding-top: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.loading__inner {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border-top: 7px solid #eee;
+  border-bottom: 7px solid #eee;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  animation-name: rotate;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  75% {
+    transform: rotate(135deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}

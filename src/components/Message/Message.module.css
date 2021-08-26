@@ -1,0 +1,34 @@
+.message__container {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px 20px;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+.message__text {
+  color: #5ebaeb;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.message__close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: rgb(165, 163, 163);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 575px) {
+  .message__container {
+    top: 10px;
+    width: 80%;
+    padding: 10px 5px;
+  }
+}
